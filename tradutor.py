@@ -21,8 +21,8 @@ while True:
     print("1. Переводчик")
     print("2. Выход")
     print("3. О проекте")
-
-    chose = int(input('Введите число для выбора: '))
+    try:
+        chose = int(input('Введите число для выбора: '))
     except ValueError:
         print('Некорректный ввод. Пожалуйста, введите число 1, 2 или 3.')
         continue
