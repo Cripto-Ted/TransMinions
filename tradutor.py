@@ -11,7 +11,8 @@ words_given = {
     'клянусь!': 'Underwear!', 
     'я голоден.': 'Me want banana.',
     'посмотри на себя': 'Luk at tu', 
-    'мы тебя любим': 'Tulaliloo ti amo'
+    'мы тебя любим': 'Tulaliloo ti amo',
+    'пока': 'Poopaye',
 }
 
 while True:
@@ -22,6 +23,9 @@ while True:
     print("3. О проекте")
 
     chose = int(input('Введите число для выбора: '))
+    except ValueError:
+        print('Некорректный ввод. Пожалуйста, введите число 1, 2 или 3.')
+        continue
     if chose == 1:
         chose_1 = input('Введите слово для перевода: ').lower().strip()
         print('Вы ввели: ', chose_1)
