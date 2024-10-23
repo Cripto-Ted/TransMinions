@@ -13,7 +13,7 @@ python3 --version
 cd Downloads/TransMinions-main
 ```
 Запустите проект командой:
-````bash
+```bash
 python3 tradutor.py
 ```
 
