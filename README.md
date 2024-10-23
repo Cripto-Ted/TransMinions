@@ -4,15 +4,22 @@
 # Использования
 Скачайте библиотеку difflib командой:
 ```bash
-pip3 install difflib```
+pip3 install difflib
+```
 
 Потом перейдите в папку в которой находится папка этого проекта у меня это Downloads:
 ```bash
-cd Downloads```
+cd Downloads
+```
 потом надо перейти в саму папку программы:
 ```bash
-cd Transminions-main```
+cd Transminions-main
+```
 
 и наконец запускаем проект:
 ```bash
-python3 tradutor.py```
+python3 tradutor.py
+```
+
+# Заключение
+Так как это первая версия TransMinions то там мало слов и много ошибок за каждой ошибкой/багом или исли вы хотите добавить новые слова то пишите в (дс)[https://discord.com/users/1246104428356964403/] или (тг)[t.me/HubKodLand_bot]
