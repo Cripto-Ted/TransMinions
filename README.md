@@ -5,7 +5,7 @@
 # Использование
 Перейдите в TransMinions:
 ```bash
-cd TransMinions
+cd TransMinions-main
 ```
 Теперь сделайте скрипт исполняемым, выполнив следующую команду:
 
